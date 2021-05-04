@@ -4,7 +4,6 @@ const sequelize = require('../config/connection.js');
 class Category extends Model {}
 
 Category.init(
-
   {
     category_name:{
       type:Sequelize.DataTypes.STRING,
